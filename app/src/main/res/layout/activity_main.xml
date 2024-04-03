@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/afrofuturism2"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/promo_video"
+                style="@style/dashboard_button"
+                android:text="@string/promo_video"
+                app:cornerRadius="30dp"
+                app:strokeColor="#6E37CF"
+                app:strokeWidth="3dp" />
+
+            <Button
+                android:id="@+id/tour_button"
+                style="@style/dashboard_button"
+                android:text="@string/culture_walk"
+                app:cornerRadius="30dp"
+                app:strokeColor="#6E37CF"
+                app:strokeWidth="3dp" />
+
+            <Button
+                android:id="@+id/faculty_tour_button"
+                style="@style/dashboard_button"
+                android:text="@string/faculty_tour"
+                app:cornerRadius="30dp"
+                app:strokeColor="#6E37CF"
+                app:strokeWidth="3dp" />
+
+            <Button
+                android:id="@+id/visit_button"
+                style="@style/dashboard_button"
+                android:text="@string/visit_professor_button"
+                app:cornerRadius="30dp"
+                app:strokeColor="#6E37CF"
+                app:strokeWidth="3dp" />
+
+            <Button
+                android:id="@+id/courses_button"
+                style="@style/dashboard_button"
+                android:text="@string/courses"
+                app:cornerRadius="30dp"
+                app:strokeColor="#6E37CF"
+                app:strokeWidth="3dp" />
+
+            <Button
+                android:id="@+id/declare_button"
+                style="@style/dashboard_button"
+                android:text="@string/declare_text"
+                app:cornerRadius="30dp"
+                app:strokeColor="#6E37CF"
+                app:strokeWidth="3dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/events_button"
+                style="@style/dashboard_button"
+                android:text="@string/events"
+                app:cornerRadius="30dp"
+                app:strokeColor="#6E37CF"
+                app:strokeWidth="3dp" />
+
+            <Button
+                android:id="@+id/info_button"
+                style="@style/dashboard_button"
+                android:text="@string/info"
+                app:cornerRadius="30dp"
+                app:strokeColor="#6E37CF"
+                app:strokeWidth="3dp" />
+
+            <Button
+                android:id="@+id/alumni_button"
+                style="@style/dashboard_button"
+                android:text="@string/alumni"
+                app:cornerRadius="30dp"
+                app:strokeColor="#6E37CF"
+                app:strokeWidth="3dp" />
+
+            <Button
+                android:id="@+id/news_button"
+                style="@style/dashboard_button"
+                android:text="@string/news"
+                app:cornerRadius="30dp"
+                app:strokeColor="#6E37CF"
+                app:strokeWidth="3dp" />
+
+            <Button
+                android:id="@+id/leave_feedback_button"
+                style="@style/dashboard_button"
+                android:text="@string/leave_feedback"
+                app:cornerRadius="30dp"
+                app:strokeColor="#6E37CF"
+                app:strokeWidth="3dp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
