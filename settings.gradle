@@ -1,2 +1,2 @@
-rootProject.name = "AFAS Temi"
+rootProject.name = "Library Temi"
 include ':app'
