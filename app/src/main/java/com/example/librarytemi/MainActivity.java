@@ -23,54 +23,8 @@ public class MainActivity extends AppCompatActivity implements OnRobotReadyListe
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        // Find Materials button
-        findMaterialsButton = findViewById(R.id.find_materials_button);
-        findMaterialsButton.setOnClickListener((v) -> {
-            openActivity(FindMaterialsActivity.class);
-        });
-
-        // Borrow/Request button
-        borrowRequestButton = findViewById(R.id.borrow_request_button);
-        borrowRequestButton.setOnClickListener((v) -> {
-            openWebPage("https://example.com/borrow_request");
-        });
-
-        // Reserve Space button
-        reserveSpaceButton = findViewById(R.id.reserve_space_button);
-        reserveSpaceButton.setOnClickListener((v) -> {
-            openWebPage("https://example.com/reserve_space");
-        });
-
-        // Research Guides button
-        researchGuidesButton = findViewById(R.id.research_guides_button);
-        researchGuidesButton.setOnClickListener((v) -> {
-            openActivity(ResearchGuidesActivity.class);
-        });
-
-        // Research Assistance button
-        researchAssistanceButton = findViewById(R.id.research_assistance_button);
-        researchAssistanceButton.setOnClickListener((v) -> {
-            openWebPage("https://example.com/research_assistance");
-        });
-
-        // Special Collections button
-        specialCollectionsButton = findViewById(R.id.special_collections_button);
-        specialCollectionsButton.setOnClickListener((v) -> {
-            openWebPage("https://example.com/special_collections");
-        });
-
-        // Events button
-        eventsButton = findViewById(R.id.events_button);
-        eventsButton.setOnClickListener((v) -> {
-            openWebPage("https://example.com/events");
-        });
-
-        // Download App button
-        downloadAppButton = findViewById(R.id.download_app_button);
-
     }
 
     @Override

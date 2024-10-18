@@ -5,7 +5,7 @@
     android:id="@+id/main_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#027550"
+    android:background="@color/dark_navy_blue"
     tools:context="com.example.librarytemi.MainActivity"
     >
 
@@ -27,10 +27,10 @@
 
         <ImageView
             android:id="@+id/logo_image"
-            android:layout_width="400dp"
-            android:layout_height="161dp"
-            android:contentDescription="@string/uab_logo"
-            android:src="@drawable/uab_logo" />
+            android:layout_width="481dp"
+            android:layout_height="186dp"
+            android:contentDescription="@string/uaz_logo"
+            android:src="@drawable/uaz_logo" />
 
         <View
             android:layout_width="1173dp"
@@ -80,36 +80,36 @@
 
             <!-- Find Materials button -->
             <Button
-                android:id="@+id/find_materials_button"
+                android:id="@+id/declare_button"
                 style="@style/dashboard_button"
-                android:text="@string/find_materials"
+                android:text="@string/declare_major_minor"
                 app:cornerRadius="30dp"
                 app:strokeColor="#154A3A"
                 app:strokeWidth="3dp" />
 
-            <!-- Borrow and Request button -->
+            <!-- Art Showcase Tour button -->
             <Button
-                android:id="@+id/borrow_request_button"
+                android:id="@+id/art_tour_button"
                 style="@style/dashboard_button"
-                android:text="@string/borrow_request"
+                android:text="@string/tour_art"
                 app:cornerRadius="30dp"
                 app:strokeColor="#154A3A"
                 app:strokeWidth="3dp" />
 
-            <!-- Reserve Space button -->
+            <!-- Faculty Tour button -->
             <Button
-                android:id="@+id/reserve_space_button"
+                android:id="@+id/faculty_tour_button"
                 style="@style/dashboard_button"
-                android:text="@string/reserve_space"
+                android:text="@string/faculty_tour"
                 app:cornerRadius="30dp"
                 app:strokeColor="#154A3A"
                 app:strokeWidth="3dp" />
 
-            <!-- Research Guides button -->
+            <!-- Visit Faculty button -->
             <Button
-                android:id="@+id/research_guides_button"
+                android:id="@+id/visit_faculty_button"
                 style="@style/dashboard_button"
-                android:text="@string/research_guides"
+                android:text="@string/visit_faculty"
                 app:cornerRadius="30dp"
                 app:strokeColor="#154A3A"
                 app:strokeWidth="3dp" />
@@ -118,44 +118,7 @@
         <!-- Second row of buttons -->
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
-
-            <!-- Research Assistance button -->
-            <Button
-                android:id="@+id/research_assistance_button"
-                style="@style/dashboard_button"
-                android:text="@string/research_assistance"
-                app:cornerRadius="30dp"
-                app:strokeColor="#154A3A"
-                app:strokeWidth="3dp" />
-
-            <!-- Special Collections button -->
-            <Button
-                android:id="@+id/special_collections_button"
-                style="@style/dashboard_button"
-                android:text="@string/special_collections"
-                app:cornerRadius="30dp"
-                app:strokeColor="#154A3A"
-                app:strokeWidth="3dp" />
-
-            <!-- Events button -->
-            <Button
-                android:id="@+id/events_button"
-                style="@style/dashboard_button"
-                android:text="@string/events"
-                app:cornerRadius="30dp"
-                app:strokeColor="#154A3A"
-                app:strokeWidth="3dp" />
-
-            <!-- Download App button -->
-            <Button
-                android:id="@+id/download_app_button"
-                style="@style/dashboard_button"
-                android:text="@string/download_app"
-                app:cornerRadius="30dp"
-                app:strokeColor="#154A3A"
-                app:strokeWidth="3dp" />
-        </TableRow>
+            android:layout_height="match_parent" />
 
     </TableLayout>
 
